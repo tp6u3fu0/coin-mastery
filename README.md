@@ -1,53 +1,20 @@
-🎮 Coin Mastery - Catch the Coins Game
-📌 Project Overview
+# 手機小遊戲：Coin Mastery
+## 專案概覽
 
-Coin Mastery is a simple and fun Android game developed using Android Studio.
-Players control a character to catch falling coins while avoiding harmful objects (e.g., poop 💩), aiming to achieve the highest score possible.
+Coin Mastery是一個Android平台上的手機遊戲軟體，玩家可透過簡單的左右滑動來接從上方掉落的金幣，遊戲過程中會有一些小道具掉落，若接到道具則會觸發一些意想不到的功能。
 
-This project was developed as a final project in December 2024, focusing on integrating game logic, UI design, and user interaction in a mobile application.
+## 遊戲規則
 
-🎯 Features
+* 接到金幣可得分。
+* 接到表情符號💩則會扣分。
+* 接到其餘表情符號道具會觸發特殊效果。
 
-🪙 Catch coins to earn points
+## 開發語言/平台
 
-💩 Avoid obstacles to prevent score penalties
+語言：Java、XML (UI 設計)
 
-⚡ Power-up system (increase speed / special abilities)
+平台：Android Studio
 
-⏸️ Pause and resume gameplay
+## 如何遊玩
 
-🏆 High score tracking
-
-🎮 Simple and intuitive controls
-
-🛠️ Technologies Used
-
-Java
-
-Android Studio
-
-XML (UI Design)
-
-Canvas / Game Loop (for rendering gameplay)
-
-🧠 Game Mechanics
-
-Coins and obstacles fall from the top of the screen
-
-Player moves horizontally to catch or avoid objects
-
-Game speed increases over time
-
-Special items may grant temporary or permanent buffs
-
-🎮 How to Play
-
-Start the game
-
-Move the character left/right
-
-Catch coins to gain points
-
-Avoid obstacles
-
-Try to beat your high score!
+目前尚無將此專案打包的打算，因此請將此專案pull至Android studio並按下F5開始執行。
